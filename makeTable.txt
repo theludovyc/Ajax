@@ -1,0 +1,11 @@
+CREATE TABLE A(
+	id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+	qId INT,
+	question VARCHAR(512),
+	qOpen INT(1) DEFAULT 0,
+	nbAnswer INT(1) DEFAULT 2,
+	answerA INT DEFAULT 0,
+	answerB INT DEFAULT 0,
+	answerC INT,
+	answerD INT
+)
